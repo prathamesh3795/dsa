@@ -37,8 +37,7 @@ class BST:
             return self.search(root.left, key)
         else:
             return self.search(root.right, key)
-
-
+            
 # Main program
 b = BST()
 
